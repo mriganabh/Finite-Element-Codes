@@ -1,6 +1,9 @@
-function [Kel, fel, Mel] = TwoDQ4element(xy, Dmat, bxy, edgeloads, dens, ...
-                                           time_cur, impulse_start, impulse_end)
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
 
+%% Code Summary
 % This subroutine calculates the "element" K, M and f vectors
 % Input:
 % ------
@@ -16,6 +19,11 @@ function [Kel, fel, Mel] = TwoDQ4element(xy, Dmat, bxy, edgeloads, dens, ...
 %               EdgeNumber, tnX, tnY;
 %               EdgeNumber, tnX, tnY; ]
 % ( Edge1:Node1-Node2, Edge2:Node2-Node3, Edge3:Node3-Node1 ... )
+
+%%
+
+function [Kel, fel, Mel] = TwoDQ4element(xy, Dmat, bxy, edgeloads, dens, ...
+                                           time_cur, impulse_start, impulse_end)
 
 Mel = zeros(8,8);
 Mel_cons = zeros(8,8);

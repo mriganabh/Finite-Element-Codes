@@ -1,4 +1,14 @@
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
 
+%% Code Summary
+% This subroutine computes the stresses at the integration points, 
+% elemental stresses & unaveraged nodal stresses using current displacement
+% and removes elements with principal stress > limit specified in input file 
+
+%%
 function [elems, elemstrs, nodalstrs, nodalcount] = compute_stress(istep, nodalcount, elems, materials, nodes, d) 
 
 % Element stresses

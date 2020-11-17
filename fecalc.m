@@ -1,4 +1,13 @@
-% This function evaluates the matrices - M & K and vector - f
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
+
+%% Code Summary
+% This subroutine evaluates the global Mass & Stiffness matrices
+% and global force vector at the specified instant of time "time_cur"
+
+%%
 
 function [M, K, f] = fecalc(time_cur, elems, nodes, materials, DynData, nodloads)
 

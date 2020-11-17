@@ -1,3 +1,13 @@
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
+
+%% Code Summary
+% This subroutine evaluates the stresses at each integration point for the element
+
+%%
+
 function [strs, strn] = TwoDT3elempost(d, nodexyz, Dmat)
 
 x1 = nodexyz(1,1); y1 = nodexyz(1,2);

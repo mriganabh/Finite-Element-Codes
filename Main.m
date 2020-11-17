@@ -1,6 +1,14 @@
-% FE2D Linear Code with Element Deletion
-% FE code for a 2D Problem 
+% FE2D Linear Code with Element Deletionuthor Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
 
+%% Code Summary
+% It is the Main File
+% It progresses the state of the system every time step
+% It calls various other subroutines like TwoDFEgetinput, plot_model, fecalc, etc.
+
+%%
 clear all; clc; close all;                                                  % clear all the existing variables (new start)
 
 % Obtain the input file name from the user & Read Input

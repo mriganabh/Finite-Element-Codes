@@ -1,3 +1,7 @@
+- Problem_description.pdf in the folder states the material properties along with BCs and loading
+
+- User is also advised to go through the files "2D_bar_Q4.txt" & "2D_bar_T3.txt" to understand the input file structure
+
 This folder contains a 2D Linear elastic Finite Element Code solved in Matlab. The description 
 of all the individual files are as follows:
 
@@ -35,3 +39,11 @@ of all the individual files are as follows:
 
 9. plot_avg_nodalstrs.m
 	- This subroutine plots the averaged nodal stresses
+
+10. TwoDFEgetDmat.m
+	- This subroutine creates the Dmat matrix (as per Voight Notation)
+
+11. Files starting with "TwoDQ4" computes quantities when using Q4 elements
+
+12. Files starting with "TwoDT3" computes quantities when using T3 elements
+

@@ -1,6 +1,14 @@
-function [xi, wi] = Gauss1d(n)
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
+
+%% Code Summary
 % This function returns an array of locations (xi) and the corresponding
 % weights (wi) for a given input "n" number of Gauss points
+
+%%
+function [xi, wi] = Gauss1d(n)
 
 if n==1
     xi(1) = 0;

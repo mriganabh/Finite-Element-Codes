@@ -1,4 +1,12 @@
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
+
+%% Code Summary
 % This function plots element stresses
+
+%%
 
 function [] = plot_elemstrs(newnodes, patchfaces, nodalstrs, elemstrs_up, time_cur)
 

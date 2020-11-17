@@ -1,3 +1,12 @@
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
+
+%% Code Summary
+% This subroutine plots the averaged nodal stresses
+%%
+
 function [] = plot_avg_nodalstrs(istep, newnodes, patchfaces, nodalstrs, time_cur)
 
 if mod(istep,1)==0

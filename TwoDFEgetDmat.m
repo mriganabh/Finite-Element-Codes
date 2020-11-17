@@ -1,3 +1,12 @@
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
+
+%% Code Summary
+% This subroutine creates the Dmat matrix (as per Voight Notation)
+
+%%
 function [Dmat] = TwoDFEgetDmat(materials, elmatnum)
 
 if materials(elmatnum).typ == 'PlaneStress'

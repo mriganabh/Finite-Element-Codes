@@ -1,3 +1,13 @@
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
+
+%% Code Summary
+% This subroutine evaluates the stresses at each integration point for the element
+
+%%
+
 function [strs] = TwoDQ4elempost(d, xy, Dmat)
 
 n1d = 1; % 2: Full integration    ;    1: Reduced integration (Barlow point)

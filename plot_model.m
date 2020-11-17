@@ -1,4 +1,12 @@
-% This function plots the model, node & element neighbours
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
+
+%% Code Summary
+% This function plots the input model, node numbers & element numbers
+
+%%
 
 function [elems]=plot_model(elems, nodes)
 

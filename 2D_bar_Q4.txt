@@ -1,7 +1,7 @@
 MaterialData (MaterialNumber, MaterialType, E, nu, density, max. principal stress limit for element deletion) 
        1        PlaneStress    2.10000e+011    3.000e-01 	8.00000e+03    5.0e+15
 Mesh Parameters: (Total-number-of-Nodes Total-number-of-Elements, Simulation End time, dt, Impulse start-time, Impulse end-time, newmark-gamma, newmark-beta)
-      105	80	2e-2	1e-04	0	1e-04	0.5	0 
+      105	80	2e-2	1e-04	0	2e-02	0.5	0 
 Nodal Coordinates (x,y) 
 	0	0
 	2.5	0

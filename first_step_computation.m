@@ -1,4 +1,12 @@
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
+
+%% Code Summary
 % This function evaluates initial acceleration
+
+%%
 
 function [d, v, a, doffree, nodalcount] = first_step_computation(bcs, Nnodes, M, K, f)
 

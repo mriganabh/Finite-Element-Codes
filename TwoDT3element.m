@@ -1,7 +1,10 @@
-function [Kel, fel, Mel] = TwoDT3element(nodexyz, Dmat, bxy, edgeloads, ...
-                                         dens, time_cur, impulse_start, impulse_end)
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
 
-% This subroutine calculates the "element" K and f vectors 
+%% Code Summary
+% This subroutine calculates the "element" K, M matrices and f vectors 
 % Input:
 % ------
 % nodexyz : 3x2 matrix : [ x1 y1;
@@ -15,6 +18,10 @@ function [Kel, fel, Mel] = TwoDT3element(nodexyz, Dmat, bxy, edgeloads, ...
 %               EdgeNumber, tnX, tnY; 
 %               EdgeNumber, tnX, tnY; ] 
 % ( Edge1:Node1-Node2, Edge2:Node2-Node3, Edge3:Node3-Node1 )
+
+
+function [Kel, fel, Mel] = TwoDT3element(nodexyz, Dmat, bxy, edgeloads, ...
+                                         dens, time_cur, impulse_start, impulse_end)
 
 Kel = zeros(6,6);
 fel = zeros(6,1);

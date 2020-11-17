@@ -1,6 +1,15 @@
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
+
+%% Code Summary
+% This function calculates the stress invariants and principal stresses
+% and returns the principal stresses 
+
+%%
+
 function [Prin_strs] = TwoDQ4stressinvariants(strs)
-%%This function calculates the stress invariants and principal stresses
-%and returns the principal stresses 
 
 strs_row = strs(1,:);
 strs_mat = [strs_row(1) strs_row(3);...

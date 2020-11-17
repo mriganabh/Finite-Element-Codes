@@ -1,7 +1,7 @@
 MaterialData (MaterialNumber, MaterialType, E, nu, density, max. principal stress limit for deletion) 
        1        PlaneStress    2.10000e+011    2.99000e-01 	8.00000e+03    5.0e+15
 Mesh Parameters: (Total-number-of-Nodes Total-number-of-Elements, Simulation End time, dt, Impulse start-time, Impulse end-time, newmark-gamma, newmark-beta)
-      105    	160      2e-2 	1e-04 	0 	1e-04 	0.5 	0 
+      105    	160      2e-2 	1e-04 	0 	2e-02 	0.5 	0 
 Nodal Coordinates (x,y) 
 	0	0
 	2.5	0
@@ -270,11 +270,11 @@ Element Connectivities (ElementNumber, Type, MaterialNumber, bx, by, Connectivit
 	159	T3	1	0	0	83	84	105
 	160	T3	1	0	0	105	104	83
 Displacement BCs (node, xspec (0-free, 1-spec) yspec (0-free, 1-spec), xspecdis yspecdis) 
-       1        1        0    0.00000e+000    0.00000e+000
-      22        1        0    0.00000e+000    0.00000e+000 
+       1        1        1    0.00000e+000    0.00000e+000
+      22        1        1    0.00000e+000    0.00000e+000 
       43        1        1    0.00000e+000    0.00000e+000
-      64        1        0    0.00000e+000    0.00000e+000
-      85        1        0    0.00000e+000    0.00000e+000 
+      64        1        1    0.00000e+000    0.00000e+000
+      85        1        1    0.00000e+000    0.00000e+000 
 Edge Tractions: (ElementNumber, EdgeNumber (Edge1:Node1-Node2, Edge2:Node2-Node3, ..., EdgeN:NodeN-Node1), tnX, tnY 
       39	2	-2.00000e+8	0
       79	2	-2.00000e+8	0

@@ -1,5 +1,11 @@
-function [Nhat, dNhatdxi, dNhatdeta] = TwoDQ4shape(xi, eta)
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
 
+%% Code Summary
+% This subroutine computes parent shape function and its derivatives depending on
+% reduced or full integration
 % Input:
 % xi  : [ - - - - - - - - - ]: array of some ("n") xi-locations
 % eta : [ - - - - - - - - - ]: array of some ("n") eta-locations
@@ -23,6 +29,9 @@ function [Nhat, dNhatdxi, dNhatdeta] = TwoDQ4shape(xi, eta)
 %               - - - - - - - - - ;           dN3deta
 %               - - - - - - - - -  ]          dN4deta
 
+%%
+
+function [Nhat, dNhatdxi, dNhatdeta] = TwoDQ4shape(xi, eta)
 
 xiI  = [ -1,  1,  1,  -1]; % Corner node locations
 etaI = [ -1, -1,  1,   1]; 

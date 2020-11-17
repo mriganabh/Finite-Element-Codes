@@ -1,5 +1,13 @@
-% This function patches the new set of elements w/o the removed elements
-% and patches the elements in domain B
+%% Author Information
+% Author - Mriganabh Boruah
+% email id - mboruah@pudue.edu
+% Date - November 17th 2020
+
+%% Code Summary
+% This subroutine determines the connectivity of the active elements at 
+% the specified instant of time (or elements which are not deleted)
+
+%%
 
 function [patchfaces, elemstrs_up] = patch_face_update(elems, elemstrs)
 
